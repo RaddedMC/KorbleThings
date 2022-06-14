@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* VIDEO */
+a, b {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* TODO: Mouseover videos animation */
+.video {
+    background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+}
+
+.video_main_info {
+    margin-top: 5px;
+    width: 100%;
+    overflow: auto;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-size: 30px;
+
+    text-align: left;
+    float: left;
+}
+
+.title a {
+    text-decoration: none;
+    color: #b9792d;
+}
+
+.author {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    text-align: right;
+    float: right;
+}
+
+.author b {
+    font-weight: 700;
+}
+
+.description {
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 480px) {
+
+    .video {
+        width: 400px;
+    }
+}
+
+
+/* NAVBAR */
+.navbar-container {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navitem-text {
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 24x;
+}
+
+.navitem-container {
+    background-color: #fafafa;
+    margin: 10px;
+    padding: 2.5px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.navitem-container:hover {
+    background-color: #aaaaaa;
+    transition: all 0.5s;
+}
+
+.active {
+    background-color: #9999ff;
+    color: white;
+}
+
+.active:hover {
+    background-color: #ddddff;
+    color: white;
+    transition: all 0.5s;
+}
+
+.navbar-prompt {
+    font-family: "Roboto";
+    font-size: 30px;
+    text-align: center;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* sidebar */
+@media only screen and (min-width: 1231px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-container {
+        float: left;
+        height: max-page;
+        border-radius: 0px;
+        margin: 0px;
+        width: 18%;
+        height: 100vh;
+    }
+
+    .videos-container {
+        float: right;
+        width: 80%;
+    }
+}

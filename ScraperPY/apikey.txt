@@ -1,0 +1,4 @@
+{KEY GOES HERE}
+
+This API key is tied to James' Google account and restricted only for use with the YouTube data API.
+Treat this file with utmost confidentiality.

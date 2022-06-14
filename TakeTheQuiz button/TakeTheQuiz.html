@@ -1,0 +1,66 @@
+<!-- James Nicholls / Radded
+    For Korble Coaching
+    3/8/2022
+-->
+
+<!--TODO: cool animations with https://www.sliderrevolution.com/resources/css-button-hover-effects/ -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Commercial licensing may need to be researched into for photos/fonts used-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&display=swap" rel="stylesheet">
+    </head>
+    <style>
+    .container {
+        position: relative;
+        margin: 10px;
+    }
+
+    .vertical-center {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #quizbutton {
+        background-color: #081719dd;
+        border: none;
+        padding: 90px 25%;
+        text-align: center;
+        color: #ccf9ff;
+        font-size: 50px;
+        font-family: 'League Spartan', sans-serif;
+        transition: 0.25s;
+        border-radius: 30px;
+        border: 2px solid #00000000;
+    }
+
+    #quizbutton:hover {
+        background-color: #122e36ea;
+        color: #e6fdff;
+        transition: 0.25s;
+        border-radius: 0px;
+        letter-spacing: 2px;
+        font-size: 48px;
+        border: 2px solid #56daff;
+    }
+
+    #quizbutton:active {
+        background-color: #217196dd;
+        color: white;
+        letter-spacing: 4px;
+        padding: 87px 23%;
+        transition: 0.1s;
+    }
+    </style>
+
+    <div class="container">
+        <div class="vertical-center">
+            <button id="quizbutton">TAKE THE QUIZ!</button>
+        </div>
+    </div>
+</html>

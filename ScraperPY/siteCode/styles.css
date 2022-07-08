@@ -101,12 +101,12 @@ li {
 }
 
 .active {
-    background-color: #9999ff;
+    background-color: #6ca3a2;
     color: white;
 }
 
 .active:hover {
-    background-color: #ddddff;
+    background-color: #395655;
     color: white;
     transition: all 0.5s;
 }

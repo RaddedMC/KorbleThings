@@ -57,7 +57,8 @@ def get_playlist_videos(playlistid):
     url = "https://www.googleapis.com/youtube/v3/playlistItems?"\
           "playlistId={playlistId}&"\
           "key={key}&"\
-          "part=contentDetails".format(
+          "part=contentDetails&"\
+          "maxResults=50".format(
         playlistId=playlistid,
         key=API_KEY
     )
